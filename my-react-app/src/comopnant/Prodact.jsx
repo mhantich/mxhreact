@@ -13,6 +13,9 @@ function Prodact() {
           position: "relative",
           alignItems: "center",
           justifyContent: "space-between",
+          flexDirection: { xs: "column", md: "row" },
+          textAlign: { xs: "center", md: "left" },
+          paddingBlock:{xs:'1rem',md:'4rem'}
         }}
       >
         <Box sx={{ flex: 1 }}>
@@ -38,19 +41,21 @@ function Prodact() {
             flex: 1,
             lineHeight: "10px",
             flexDirection: "column",
+            textAlign: { xs: "center", md: "left" },
+
           }}
           mt={4}
         >
           <Box>
-            <Typography variant="h1" align="left">
+            <Typography variant="h1" >
               Lorem ipsum dolor sit amet.
             </Typography>
             <br />
           </Box>
-          <Typography variant="body1" align="left">
+          <Typography variant="body1" >
             {demoData.heroSection.subtitle}
           </Typography>
-          <Box display="flex" justifyContent="start" mt={2}>
+          <Box display="flex" sx={{justifyContent:{xs:"center",md:'left'}}} mt={2}>
             <Button
               variant="contained"
               sx={{
@@ -67,8 +72,8 @@ function Prodact() {
 
         <Box sx={{ position: "absolute", top: "0", right: "0" }}>
           <svg
-            width="200"
-            height="200"
+            width="100"
+            height="100"
             viewBox="0 0 200 200"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

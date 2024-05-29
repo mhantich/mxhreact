@@ -11,9 +11,10 @@ function News() {
           position: "relative",
           alignItems: "center",
           justifyContent: "space-between",
+          paddingBlock:{xs:'1rem',md:'4rem'},
         }}
       >
-        <Box sx={{ flex: 1 }}>
+        <Box sx={{ flex: 1,display:{xs:'none',md:'block'} }}>
           <Box
             display="flex"
             justifyContent="center"
@@ -23,6 +24,7 @@ function News() {
               clipPath: "polygon(50% 0%, 90% 24%, 90% 100%, 10% 100%, 10% 26%)",
               backgroundColor: theme.palette.background.paper,
               borderRadius: "1rem",
+
             }}
             mt={4}
           >
@@ -36,14 +38,15 @@ function News() {
             flex: 1,
             lineHeight: "10px",
             flexDirection: "column",
+            textAlign: { xs: "center", md: "left" },
           }}
           mt={4}
         >
           <Box>
-            <Typography variant="h1" align="left">
+            <Typography variant="h1" >
               Lorem ipsum dolor sit amet.
             </Typography>
-            <Typography variant="body2" align="left" color={theme.palette.text.secondary}>
+            <Typography variant="body2"  color={theme.palette.text.secondary}>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, blanditiis?
               Lorem ipsum dolor, sit amet consectetur
               Lorem ipsum dolor, sit ame
@@ -51,7 +54,7 @@ function News() {
             <br />
           </Box>
           <Input placeholder="Email Here" />
-          <Box display="flex" justifyContent="start" mt={2}>
+          <Box display="flex" sx={{justifyContent:{xs:"center",md:'left'}}} mt={2}>
             <Button
               variant="contained"
               sx={{
@@ -68,8 +71,8 @@ function News() {
 
         <Box sx={{ position: "absolute", top: "0", right: "0" }}>
           <svg
-            width="200"
-            height="200"
+            width="100"
+            height="100"
             viewBox="0 0 200 200"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

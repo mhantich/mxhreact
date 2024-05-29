@@ -20,6 +20,8 @@ function About() {
           flexDirection: { xs: "column", md: "row" },
           gap: "2rem",
           clipPath: "polygon(0 0, 100% 0%, 90% 100%, 0% 100%)",
+          overflow:'hidden',
+          paddingBlock:{xs:'1rem',md:'4rem'}
         }}
       >
         <Box
@@ -45,7 +47,7 @@ function About() {
           alignItems="center"
           justifyContent="center"
           sx={{
-            width:'25rem',
+           
             height:'25rem',
             overflow:'hidden'
           }}
