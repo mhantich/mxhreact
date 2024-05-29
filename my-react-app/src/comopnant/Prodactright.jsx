@@ -11,7 +11,6 @@ function Prodactright() {
         sx={{
           display: "flex",
           alignItems: "center",
-          height: "100dvh",
           justifyContent: "space-between",
           position: "relative",
           flexDirection: { xs: "column", md: "row" },
