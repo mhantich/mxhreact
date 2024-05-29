@@ -39,7 +39,9 @@ function Header() {
           left: "0",
           bottom: "0%",
           paddingInline: "30px",
-          height:"10vh"
+          height:"10vh",
+          backgroundColor:'white',
+          zIndex:'1'
         }}
       >
         <FlexBetween>

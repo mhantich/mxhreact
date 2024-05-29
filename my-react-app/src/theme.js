@@ -46,6 +46,10 @@ const theme = createTheme({
       fontSize: '0.875rem', // Smaller body text
       fontWeight: 400,
     },
+    body3: {
+      fontSize: '0.575rem', // Smaller body text
+      fontWeight: 400,
+    },
     button: {
       fontSize: '1rem', // Button text size
       fontWeight: 600,
