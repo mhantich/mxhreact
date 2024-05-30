@@ -15,7 +15,11 @@ function Prodact() {
           justifyContent: "space-between",
           flexDirection: { xs: "column", md: "row" },
           textAlign: { xs: "center", md: "left" },
-          paddingBlock:{xs:'1rem',md:'4rem'}
+          paddingBlock:{xs:'1rem',md:'4rem'},
+          paddingInline:{xs:'1rem',md:'2rem'},
+    
+          width:'100%',
+          overflowX:'hidden'
         }}
       >
         <Box sx={{ flex: 1 }}>

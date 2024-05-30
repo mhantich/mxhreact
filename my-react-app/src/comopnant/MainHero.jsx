@@ -17,7 +17,8 @@ function MainHero() {
                     overflow:'hidden',
                     flexDirection: { xs: "column", md: "row" },
                     textAlign: { xs: "center", md: "left" },
-                    paddingBlockStart:{xs:'4rem',md:'none'}
+                    paddingBlockStart:{xs:'4rem',md:'none'},
+                    padding:'1rem'
                 }}
             >
                 <Box

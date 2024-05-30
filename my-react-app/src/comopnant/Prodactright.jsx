@@ -16,8 +16,10 @@ function Prodactright() {
           flexDirection: { xs: "column", md: "row" },
           textAlign: { xs: "center", md: "left" },
           paddingBlock:{xs:'1rem',md:'4rem'},
-          overflow:'hidden'
+          overflow:'hidden',
 
+          width:'100%',
+          overflowX:'hidden'
           
         }}
       >

@@ -20,11 +20,11 @@ function App() {
     
       <About />
       <Prodact />
-     <Prodactright />
-     <Reviews />
-      <News />
-    <Footer/>  
-    <CreatedBy/>  
+    <Prodactright /> 
+      <Reviews /> 
+      <News /> 
+   <Footer/>   
+  <CreatedBy/>  
     </ThemeProvider>
   );
 }
